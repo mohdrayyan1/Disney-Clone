@@ -25,24 +25,24 @@
   transition: 0.2s ease;
 }
 
-.header__login:hover{
-    color: #131a28;
-    background-color: white;
+.header__login:hover {
+  color: #131a28;
+  background-color: white;
 }
 
-.header__nav{
+.header__nav {
   display: flex;
   flex: 1;
 }
 
-.header__nav a{
+.header__nav a {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 20px;
 }
 
-.header__nav a span{
+.header__nav a span {
   margin: 0 5px;
   letter-spacing: 1px;
 }
@@ -54,4 +54,14 @@
   width: 20px;
   height: 20px;
   color: #f9f9f9;
+}
+
+@media only screen and (max-width: 500px) {
+  .header__navbar > img {
+    margin-right: auto;
+  }
+
+  .header__nav {
+    display: none;
+  }
 }

@@ -103,7 +103,7 @@ const Home = () => {
 					}
 				</div>
 			</div>
-			<div class="newDisney">
+			<div className="newDisney">
 				<h2>New to Disney+</h2>
 				<div className="card__body">
 					{newDisney &&
@@ -116,9 +116,9 @@ const Home = () => {
 					}
 				</div>
 			</div>
-			<div class="original">
+			<div className="original">
 				<h2>Originals</h2>
-				<div class="card__body">
+				<div className="card__body">
 					{original &&
 						original.map((row, i) => (
 							<Recommend
@@ -129,9 +129,9 @@ const Home = () => {
 					}
 				</div>
 			</div>
-			<div class="trending">
+			<div className="trending">
 				<h2>Trending</h2>
-				<div class="card__body">
+				<div className="card__body">
 					{trending &&
 						trending.map((row, i) => (
 							<Recommend

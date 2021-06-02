@@ -44,3 +44,16 @@ video {
 	z-index: 1;
 	display: block;
 }
+
+@media only screen and (max-width:500px){
+	.disney{
+		padding: 10px 20px;
+		display: block;
+	}
+
+	.disney__card{
+		width: 90%;
+		position: relative;
+		margin: 30px auto;
+	}
+}

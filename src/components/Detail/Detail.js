@@ -23,27 +23,27 @@ const Detail = () => {
 
 	return (
 		<>
-			<div class="detail">
-				<div style={{ backgroundImage: "url(" + data.backgroundImg + ")" }} class="detail__background"></div>
-				<div class="detail__body">
-					<div class="detail__logo">
+			<div className="detail">
+				<div style={{ backgroundImage: "url(" + data.backgroundImg + ")" }} className="detail__background"></div>
+				<div className="detail__body">
+					<div className="detail__logo">
 						<img src={data.titleImg} alt="" />
 					</div>
-					<div class="detail__content">
+					<div className="detail__content">
 						<div>
 							<a href="#">
-								<i class="fas fa-play"></i>
+								<i className="fas fa-play"></i>
 								Play
 							</a>
 						</div>
 						<div>
 							<a href="#">
-								<i class="fas fa-play"></i>
+								<i className="fas fa-play"></i>
 								Trailer
 							</a>
 						</div>
 					</div>
-					<div class="detail__description">
+					<div className="detail__description">
 						<p>{data.subTitle}</p>
 						<p>{data.description}</p>
 					</div>
